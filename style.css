@@ -365,7 +365,7 @@ a:hover {
 @media (min-width: 768px) {
     .site-navigation {
         position: absolute;
-        top: 50%;
+        top: 30%;
         right: 20px;
         transform: translate(0, -50%);
         -webkit-transform: translateY(-50%);
@@ -681,7 +681,7 @@ p {
 }
 
 .tight-width-whitespace {
-    max-width: 600px;
+    max-width: 700px;
     margin: auto auto auto auto;
 }
 
@@ -705,7 +705,7 @@ p {
 }
 
 h2 {
-    font-size: 22px;
+    font-size:2em;
     line-height: 1.4em;
 }
 
@@ -723,7 +723,8 @@ h3 {
 }
 
 h1 {
-    color: #333333!important;
+    text-align: center;
+    color: #F3976C !important;
 }
 
 h4 {
@@ -1039,4 +1040,12 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
+}
+
+p{
+    font-size: 1.2em;
+}
+
+q{
+    font-style: italic;
 }
