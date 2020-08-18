@@ -11,7 +11,9 @@ a, button {
     transition: all .3s ease-in-out;
     outline: none!important;
 }
-
+.social a{
+    color:#ffffff;
+}
 a:hover, a:focus {
     text-decoration: none;
     cursor: pointer;
@@ -554,7 +556,7 @@ a[data-lightbox]:hover img, a[data-lightbox]:focus img {
     background: none;
 }
 
-h1, h2, h3, h4, h5, h6, p, label, .btn, a {
+h1, h2, h3, h4, h5, h6, p, label, .btn{
     font-family: "helvetica";
     font-weight: 400;
     color: #575757!important;
