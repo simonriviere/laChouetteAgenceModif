@@ -11,9 +11,11 @@ a, button {
     transition: all .3s ease-in-out;
     outline: none!important;
 }
-.social a{
-    color:#ffffff;
+
+.social a {
+    color: #ffffff;
 }
+
 a:hover, a:focus {
     text-decoration: none;
     cursor: pointer;
@@ -189,7 +191,7 @@ a:hover, a:focus {
     color: rgba(0, 0, 0, .6);
 }
 
-.d-bloc .panel .btn-wire, .d-bloc .panel .btn-wire:hover,.d-bloc .panel .btn-wire:focus, .l-bloc .btn-wire, .l-bloc .btn-wire:hover, .l-bloc .btn-wire:focus {
+.d-bloc .panel .btn-wire, .d-bloc .panel .btn-wire:hover, .d-bloc .panel .btn-wire:focus, .l-bloc .btn-wire, .l-bloc .btn-wire:hover, .l-bloc .btn-wire:focus {
     color: rgba(0, 0, 0, .7);
     border-color: rgba(0, 0, 0, .3);
 }
@@ -556,7 +558,7 @@ a[data-lightbox]:hover img, a[data-lightbox]:focus img {
     background: none;
 }
 
-h1, h2, h3, h4, h5, h6, p, label, .btn{
+h1, h2, h3, h4, h5, h6, p, label, .btn {
     font-family: "helvetica";
     font-weight: 400;
     color: #575757!important;
@@ -777,18 +779,12 @@ h4 {
         overflow-x: hidden;
         position: relative;
     }
-    .bloc {
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
-    }
     .bloc-group, .bloc-group .bloc {
         display: block;
         width: 100%;
     }
     .bloc-fill-screen .fill-bloc-top-edge, .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
     }
 }
 
